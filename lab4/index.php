@@ -52,13 +52,17 @@
 </form>
 
 <form class="form-inline">
-  <input type="submit" class="btn btn-info form-inline" name="submit" value="Submit" >
+  <input type="submit" class="btn btn-info form-inline" name="submit" value="Submit" ><br>
 </form>
 
   <form action="dw.php" class="form-inline">
   <input type="submit" class="btn btn-success form-inline" name="download" value="Download" >
 </form>
-
+<br>
+<form action="up.php" method="post" enctype="multipart/form-data" name="form1">
+<input type="file" name="resume" id="resume" class="btn btn-warning"><br>
+<input type="submit" name="SubmitBtn" id="SubmitBtn" value="Upload File" class="btn btn-primary">
+</form>
   </div>
                         </div>
                     </div>
@@ -66,6 +70,8 @@
             </div>
         </div>
     </div>
+
+
 
 
 
