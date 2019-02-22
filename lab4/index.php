@@ -13,9 +13,10 @@
 <!DOCTYPE HTML>  
 <html>
 <head>
+  <title>One More Drink!</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>  
+<body>
 
 <nav class="navbar navbar-light bg-light">
   <span class="navbar-brand mb-0 h1">One More Drink!</span>
@@ -23,7 +24,7 @@
 <br>
 
 
-<form method="post">  
+<form method="post">
 <div class="container py-5">
         <div class="row">
             <div class="col-md-12">
@@ -48,13 +49,16 @@
     </div>
     <input type="text" name="cost" class="form-control" placeholder="Enter How much you Pay!" aria-label="Pay" aria-describedby="basic-addon1">
   </div>
-  <input type="submit" class="btn btn-info" name="submit" value="Submit" >  
-
-<form action="dw.php">
-  <input type="submit" class="btn btn-info" name="download" value="Download" >
 </form>
 
-  
+<form class="form-inline">
+  <input type="submit" class="btn btn-info form-inline" name="submit" value="Submit" >
+</form>
+
+  <form action="dw.php" class="form-inline">
+  <input type="submit" class="btn btn-success form-inline" name="download" value="Download" >
+</form>
+
   </div>
                         </div>
                     </div>
@@ -62,7 +66,11 @@
             </div>
         </div>
     </div>
-    </form>
+
+
+
+
+
 
 </body>
 </html>
