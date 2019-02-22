@@ -50,7 +50,9 @@
   </div>
   <input type="submit" class="btn btn-info" name="submit" value="Submit" >  
 
-
+<form action="dw.php">
+  <input type="submit" class="btn btn-info" name="download" value="Download" >
+</form>
 
   
   </div>
