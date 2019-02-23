@@ -43,7 +43,6 @@
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-6 mx-auto">
-
                         <div class="card rounded-0">
                             <div class="card-header">
 
@@ -62,11 +61,9 @@
     </div>
     <input type="text" name="cost" class="form-control" placeholder="Enter How much you Pay!" aria-label="Pay" aria-describedby="basic-addon1">
   </div>
-</form>
-
-<form class="form-inline">
   <input type="submit" class="btn btn-info form-inline" name="submit" value="Submit" ><br>
 </form>
+
 
   <form action="dw.php" class="form-inline">
   <input type="submit" class="btn btn-success form-inline" name="download" value="Download" >
